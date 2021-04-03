@@ -1,0 +1,12 @@
+
+
+red
+            fill(255, 0, 0)
+blue
+            fill(0, 38, 255)
+green
+            fill(0, 255, 33)
+purple/pink
+            fill(178, 0, 255)
+yellow
+            fill(255, 216, 255)

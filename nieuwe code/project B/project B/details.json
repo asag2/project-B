@@ -1,0 +1,122 @@
+{
+  "Details": [
+    {
+      "Name": "",
+      ""
+    },
+    {
+      "Name": "Sashimi tonijn",
+      "Veggie": null,
+      "Fish": true,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Carpaccio",
+      "Veggie": null,
+      "Fish": true,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Huzarensalade",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Soep",
+      "Veggie": true,
+      "Fish": true,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Pasta",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Eendenborst",
+      "Veggie": false,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Biefstuk met knoflookaardappeltjes",
+      "Veggie": false,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Vis van de dag",
+      "Veggie": null,
+      "Fish": true,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Kibbeling",
+      "Veggie": null,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Lasagne",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Panna Cotta",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Bitterkoekjes",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": true,
+      "Price": "1"
+    },
+    {
+      "Name": "Kaasplateau",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": false,
+      "Price": "1"
+    },
+    {
+      "Name": "Frisdrank/Soda",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": true,
+      "Price": "1"
+    },
+    {
+      "Name": "Wijn",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": true,
+      "Price": "1"
+    },
+    {
+      "Name": "Beer",
+      "Veggie": true,
+      "Fish": false,
+      "Drink": true,
+      "Price": "1"
+    }
+
+
+  ]
+}

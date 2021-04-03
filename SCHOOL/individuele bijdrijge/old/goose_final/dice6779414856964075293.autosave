@@ -1,0 +1,81 @@
+def rollButtons(): #the lower two buttons
+#Right button
+    fill(255, 255, 255)
+    rectMode(CENTER)
+    rect((width/4)*2.5, 660, 250, 50)
+    fill(0, 0, 0)
+    textSize(20)
+    textAlign(CENTER)
+    text('Press Space to roll', (width/4)*2.5, 660)
+
+def dice(): #the right dice
+    fill(255, 255, 255)
+    rectMode(CENTER)
+    rect((width/4)*2.5, 500, 250, 250)
+    global img6
+    img6 = loadImage("data/dice-6.png")
+    imageMode(CENTER)
+    image(img6, (width/4)*2.5, 500, 250, 250)
+
+def rollDice():
+    rolledDice = int(random(1, 7))
+    if rolledDice == 1:
+        fill(255, 255, 255)
+        rectMode(CENTER)
+        rect((width/4)*2.5, 500, 250, 250)
+        global img1
+        img1 = loadImage("data/dice-1.png")
+        imageMode(CENTER)
+        image(img1, (width/4)*2.5, 500, 250, 250)
+    if rolledDice == 2:
+        fill(255, 255, 255)
+        rectMode(CENTER)
+        rect((width/4)*2.5, 500, 250, 250)
+        global img2
+        img2 = loadImage("data/dice-2.png")
+        imageMode(CENTER)
+        image(img2, (width/4)*2.5, 500, 250, 250)
+    if rolledDice == 3:
+        fill(255, 255, 255)
+        rectMode(CENTER)
+        rect((width/4)*2.5, 500, 250, 250)
+        global img3
+        img3 = loadImage("data/dice-3.png")
+        imageMode(CENTER)
+        image(img3, (width/4)*2.5, 500, 250, 250)
+    if rolledDice == 4:
+        fill(255, 255, 255)
+        rectMode(CENTER)
+        rect((width/4)*2.5, 500, 250, 250)
+        global img4
+        img4 = loadImage("data/dice-4.png")
+        imageMode(CENTER)
+        image(img4, (width/4)*2.5, 500, 250, 250)
+    if rolledDice == 5:
+        fill(255, 255, 255)
+        rectMode(CENTER)
+        rect((width/4)*2.5, 500, 250, 250)
+        global img5
+        img5 = loadImage("data/dice-5.png")
+        imageMode(CENTER)
+        image(img5, (width/4)*2.5, 500, 250, 250)
+    if rolledDice == 6:
+        fill(255, 255, 255)
+        rectMode(CENTER)
+        rect((width/4)*2.5, 500, 250, 250)
+        global img6
+        img6 = loadImage("data/dice-6.png")
+        imageMode(CENTER)
+        image(img6, (width/4)*2.5, 500, 250, 250)
+
+'''
+def setup():
+    dice()
+
+def draw():
+    rollButtons()
+
+def keyPressed():
+    if key == ' ': #right button coordinates
+        rollDice()
+'''
